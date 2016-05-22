@@ -13,5 +13,5 @@
 2.编写属性attrs.xml文件<br>
 3.在构造方法中对自定义的值进行获取<br>
 4.测量， 分析宽度高度需要支持的模式，控件内部的绘制时依赖于用户给它的一个宽度和高度的明确之，他的宽和高就不支持wrap_content之类的模式，所以onMesure与我们使用的场景是息息相关的（有三种测量模式）<br>
-5.onDraw
+5.onDraw<br>
 ![image](https://github.com/felix0080/Loding-android/blob/master/image/the.jpg)
