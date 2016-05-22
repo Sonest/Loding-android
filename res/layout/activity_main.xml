@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:felix="http://schemas.android.com/apk/res/com.olycloud.progressbar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.olycloud.progressbar.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.olycloud.view.HorizontalProgressbarWithProgress
+            android:id="@+id/id_progress01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:progress="0"
+            felix:progress_reach_color="#ffff0000"
+            felix:progress_text_color="#ffff0000"
+            felix:progress_unreach_color="#44ff0000" />
+        <com.olycloud.view.RoundProgressBarWidthProgress
+            
+            android:id="@+id/id_progress02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:progress="30"
+            felix:radius="60dp"
+            felix:progress_text_size="30sp"
+            felix:progress_reach_color="#ffff0000"
+            felix:progress_text_color="#ff000000"
+            felix:progress_unreach_color="#44ff0000" />
+        
+        <com.olycloud.view.HorizontalProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="100"
+            felix:progress_text_color="#44ff0000"
+            felix:progress_unreach_color="#ff000000" />
+
+        <com.olycloud.view.HorizontalProgressbarWithProgress
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="30"
+            felix:progress_text_color="#44ff0000"
+            felix:progress_unreach_color="#ff000000" />
+    </LinearLayout>
+
+</ScrollView>
